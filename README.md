@@ -1,5 +1,5 @@
-# Farnesylation_motif_search
-Proteome-wide motif search for specific PTM(Post Translational Modification)
+# Farnesylation motif search
+Proteome-wide motif search for specific PTM (Post Translational Modification)
 
 ## Input
 - fasta file (uniprotproteomeAUP000005640.fasta)
