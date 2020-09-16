@@ -1,5 +1,9 @@
 from Bio import SeqIO
-
+'''
+Specific motifs were sarched based on input motif.
+C: Cysteine
+X: Any amino acid but C
+'''
 
 class MotifSearch(object):
 
