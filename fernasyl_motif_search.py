@@ -14,7 +14,7 @@ class MotifSearch(object):
     # Motif for CCXXX
     def ccxxx(self):
 
-        self.ccxxxfile = open('Motif_CCxxx_amino_N_terminal.txt', 'w')
+        self.ccxxxfile = open('Motif_CCxxx_amino_C_terminal.txt', 'w')
 
         for self.fasta in self.fastaSequences:
             name, seq, des = self.fasta.id, str(self.fasta.seq), str(self.fasta.description)
@@ -31,7 +31,7 @@ class MotifSearch(object):
     # Motif for CXCXX
     def cxcxx(self):
 
-        self.cxcxxfile = open('Motif_CxCxx_amino_N_terminal.txt', 'w')
+        self.cxcxxfile = open('Motif_CxCxx_amino_C_terminal.txt', 'w')
 
         for self.fasta in self.fastaSequences:
             name, seq, des = self.fasta.id, str(self.fasta.seq), str(self.fasta.description)
@@ -48,7 +48,7 @@ class MotifSearch(object):
     # Motif for CXXCX
     def cxxcx(self):
 
-        self.cxxcxfile = open('Motif_CxxCx_amino_N_terminal.txt', 'w')
+        self.cxxcxfile = open('Motif_CxxCx_amino_C_terminal.txt', 'w')
 
         for self.fasta in self.fastaSequences:
             name, seq, des = self.fasta.id, str(self.fasta.seq), str(self.fasta.description)
@@ -65,7 +65,7 @@ class MotifSearch(object):
     # Motif for CXXXC
     def cxxxc(self):
 
-        self.cxxxcfile = open('Motif_CxxxC_amino_N_terminal.txt', 'w')
+        self.cxxxcfile = open('Motif_CxxxC_amino_C_terminal.txt', 'w')
 
         for self.fasta in self.fastaSequences:
             name, seq, des = self.fasta.id, str(self.fasta.seq), str(self.fasta.description)
@@ -82,7 +82,7 @@ class MotifSearch(object):
     # Motif for XCCXX
     def xccxx(self):
 
-        self.xccxxfile = open('Motif_xCCxx_amino_N_terminal.txt', 'w')
+        self.xccxxfile = open('Motif_xCCxx_amino_C_terminal.txt', 'w')
 
         for self.fasta in self.fastaSequences:
             name, seq, des = self.fasta.id, str(self.fasta.seq), str(self.fasta.description)
@@ -99,7 +99,7 @@ class MotifSearch(object):
     # Motif for XCXCX
     def xcxcx(self):
 
-        self.xcxcxfile = open('Motif_xCxCx_amino_N_terminal.txt', 'w')
+        self.xcxcxfile = open('Motif_xCxCx_amino_C_terminal.txt', 'w')
 
         for self.fasta in self.fastaSequences:
             name, seq, des = self.fasta.id, str(self.fasta.seq), str(self.fasta.description)
@@ -116,7 +116,7 @@ class MotifSearch(object):
     # Motif for XCXXC
     def xcxxc(self):
 
-        self.xcxxcfile = open('Motif_xCxxC_amino_N_terminal.txt', 'w')
+        self.xcxxcfile = open('Motif_xCxxC_amino_C_terminal.txt', 'w')
 
         for self.fasta in self.fastaSequences:
             name, seq, des = self.fasta.id, str(self.fasta.seq), str(self.fasta.description)
@@ -133,7 +133,7 @@ class MotifSearch(object):
     # Motif for CCXXX
     def xxccx(self):
 
-        self.xxccxfile = open('Motif_xxCCx_amino_N_terminal.txt', 'w')
+        self.xxccxfile = open('Motif_xxCCx_amino_C_terminal.txt', 'w')
 
         for self.fasta in self.fastaSequences:
             name, seq, des = self.fasta.id, str(self.fasta.seq), str(self.fasta.description)
@@ -150,7 +150,7 @@ class MotifSearch(object):
     # Motif for XXCXC
     def xxcxc(self):
 
-        self.xxcxcfile = open('Motif_xxCxC_amino_N_terminal.txt', 'w')
+        self.xxcxcfile = open('Motif_xxCxC_amino_C_terminal.txt', 'w')
 
         for self.fasta in self.fastaSequences:
             name, seq, des = self.fasta.id, str(self.fasta.seq), str(self.fasta.description)
@@ -167,7 +167,7 @@ class MotifSearch(object):
     # Motif for XXXCC
     def xxxcc(self):
 
-        self.xxxccfile = open('Motif_xxxCC_amino_N_terminal.txt', 'w')
+        self.xxxccfile = open('Motif_xxxCC_amino_C_terminal.txt', 'w')
 
         for self.fasta in self.fastaSequences:
             name, seq, des = self.fasta.id, str(self.fasta.seq), str(self.fasta.description)
